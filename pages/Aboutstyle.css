@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+  /* padding: 0; */
+  margin: 0;
+}
+h2 {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  text-align: center;
+  font-size: 2.5em;
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+li {
+  list-style: none;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 360px);
+  grid-template-rows: repeat(4, 460px);
+  justify-content: center;
+  /* gap: 0%; */
+}
+/* ======================== NAVBAR ======================== */
+#Nav-bar {
+  background-color: rgba(230, 212, 185, 255);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+#Nav-bar h1 {
+  color: #ffffff;
+  font-weight: 100;
+  font-size: 2em;
+  cursor: pointer;
+}
+#Nav-bar a {
+  color: #ffffff;
+}
+.nav-items {
+  width: 400px;
+}
+.nav-items ul {
+  /* justify-content: space-around; */
+  display: flex;
+  gap: 0.5%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+/* ========================== Footer ================================== */
+.Footer {
+  /* position: relative; */
+  background-color: rgba(230, 212, 185, 255);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1%;
+}
+.row p {
+  text-align: center;
+  margin-bottom: 5%;
+}
+.row span {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.row-icons {
+  display: flex;
+  flex-direction: column;
+}
+.row-icons i {
+  font-size: 2.5em;
+  color: #262119;
+}

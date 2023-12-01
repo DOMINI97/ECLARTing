@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+  /* padding: 0; */
+  margin: 0;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+h1 {
+  font-size: 1.2em;
+  line-height: 1.1;
+}
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+/* ======================== NAVBAR ======================== */
+#Nav-bar {
+  background-color: rgba(230, 212, 185, 255);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+#Nav-bar h1 {
+  color: #ffffff;
+  font-weight: 100;
+  font-size: 2em;
+}
+.nav-items {
+  width: 400px;
+}
+.nav-items ul {
+  /* justify-content: space-around; */
+  display: flex;
+  gap: 0.5%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+/* ==================== Hero ================================== */
+.container-img {
+  display: flex;
+  gap: 0.2%;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.container-img img {
+  width: 620px;
+  height: 350px;
+}
+/* =========================== About ======================== */
+
+.content-a {
+  padding: 2%;
+  width: 420px;
+  height: 550px;
+  left: 25vw;
+  top: 50px;
+  position: relative;
+  text-align: start;
+  color: black;
+  font-size: 1.3em;
+  font-family: "Inter", sans-serif;
+  background-color: #ffd699;
+}
+
+.content-b {
+  padding: 2%;
+  font-size: 1.3em;
+  width: 480px;
+  height: 550px;
+  left: 21vw;
+  top: 15vh;
+  position: relative;
+  text-align: left;
+  color: black;
+  font-weight: normal;
+  font-family: "Inter", sans-serif;
+  background-color: #ffd699;
+}
+
+.WhatsappImage20231201At17592 {
+  width: 340px;
+  height: 564px;
+  left: 53vw;
+  top: -112vh;
+  position: relative;
+}
+
+.WhatsappImage20231201At17591 {
+  width: 360px;
+  height: 525px;
+  left: 24vw;
+  top: -65vh;
+  position: relative;
+}
+
+/* ========================== Footer ================================== */
+.Footer {
+  /* position: relative; */
+  background-color: rgba(230, 212, 185, 255);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1%;
+}
+.row {
+  /* display: flex; */
+  /* flex-direction: column; */
+  text-align: center;
+  /* align-items: center; */
+}
+.row-icons {
+  display: flex;
+  flex-direction: column;
+}
+.row-icons i {
+  font-size: 2.5em;
+  color: #262119;
+}
